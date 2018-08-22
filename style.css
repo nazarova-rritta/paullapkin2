@@ -1,0 +1,370 @@
+*{margin: 0; padding: 0}
+header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #756b7b, #35697d, #756b7b);
+	float: left;
+}
+article{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding-top: 4em;
+}
+nav{
+	width: 100%;
+	height: auto;
+}
+.logo{
+	float: left;
+	width: 3%;
+}	
+.menu{
+	width: 2%;
+	float: right;
+	border: 1px solid transparent;
+	padding: 0.7em;
+}
+.menu:hover{
+	border: 1px solid white;
+	transition: 0.5s;
+}
+nav img{
+	cursor: pointer;
+	animation: photo 2s linear;
+}
+.wrapperpaul{
+	width: 37%;
+	height: auto;
+	
+	margin: 20% auto;
+	color: white;
+}
+.wrapperpaul h1{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4.2em;
+	padding: 0.2em 0 0.2em 0;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	letter-spacing: 0.18em;
+}
+.wrapperpaul hr{
+	width: 100%;
+}
+p{
+	padding-top: 0.5em;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-size: 1.7em;
+	padding-bottom: 0.5em;
+	/*letter-spacing: 0.1em;*/
+}
+@keyframes photo{
+	from{
+		opacity: 0
+	}
+	to{
+		opacity: 1
+	}
+}
+.section2{
+	background: white;
+	color: #737373;
+	float: left;
+}
+.section2 h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+.photo{
+	float: left;
+}
+.section2 img{
+	width: 35%;
+}
+.hello{
+	width: 57%;
+	float: right;
+	padding-top: 4em;
+}
+.hello p{
+	padding-top: 1.5em;
+}
+button{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	background: #ff2b4a;
+	margin-top: 4em;
+	border: none;
+}
+.button1 p{
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-weight: 700;
+}
+.section3{
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+	float: left;
+	margin-bottom: 6em;
+}
+.work{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: black;
+	margin-top: 2em;
+}
+.work h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5em;
+	font-weight: 600;
+}
+.work p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1em;
+	color: #737373
+}
+.workblock{
+	width: 100%;
+	height: auto;
+	margin-top: 2em;
+	text-align: center;
+}
+.workblock1{
+	width: 24%;
+	margin-right: 1.3%;
+	float: left;
+	background: #10c6fc;
+}
+.workblock2{
+	width: 24%;
+	margin-right: 1.3%;
+	float: left;
+	background: #835aeb;
+}
+.workblock3{
+	width: 24%;
+	margin-right: 1.3%;
+	float: left;
+	background: #002453;
+}
+.workblock4{
+	width: 24%;
+	float: right;
+	background: #ff2b4a;
+}
+.workblock img{
+	margin-top: 4em;
+}
+.workblock p{
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 1em;
+	padding-bottom: 5em;
+}
+.section4{
+	width: 100%;
+	height: auto;
+	background: linear-gradient(45deg, #756b7b, #35697d, #756b7b);
+	float: left;
+	color: white;
+	padding-bottom: 4em;
+}
+.section4left{
+	width: 42%;
+	height: auto;
+	float: left;
+	margin-right: 2%;
+	background: linear-gradient(45deg, #69647c, #4c637c);
+	padding: 4% 3.5% 4% 3.5% 
+}
+.section4right, .section4right1, .section4right2{
+	width: 42%;
+	height: auto;
+	float: right;
+	background: linear-gradient(45deg, #4c637c, #69647c);
+	padding: 4% 3.5% 4% 3.5%; 
+}
+.section4 h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	margin-bottom: 3em;
+}
+.section4 p{
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+.section4 h3{
+	font-size: 1em;
+	text-align: bold;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 1.5em;
+}
+.section4 hr{
+	margin: 2em 0 2em 0;
+}
+.section5{
+	width: 100%;
+	height: auto;
+	background: white;
+	float: left;
+	color: black;
+	padding-bottom: 4em;
+}
+.latestblock{
+	width: 100%;
+	height: auto;
+	margin-top: 2em;
+	float: left;
+}
+.latestblock1{
+	width: 19vw;
+	height: 19vw;
+	margin-right: 1vw;
+	float: left;
+	background: #10c6fc;
+}
+.latestblock2{
+	width: 19vw;
+	height: 19vw;
+	margin-right: 1vw;
+	float: left;
+	background: #835aeb;
+}
+.latestblock3{
+	width: 19vw;
+	height: 19vw;
+	margin-right: 1vw;
+	float: left;
+	background: #002453;
+}
+.latestblock4{
+	width: 19vw;
+	height: 19vw;
+	float: left;
+	background: #ff2b4a;
+}
+.latestblock5{
+	width: 100%;
+	height: auto;
+	margin-top: 1vw;
+	float: left;
+}
+.latestblock6{
+	width: 39vw;
+	height: 19vw;
+	margin-right: 1vw;
+	float: left;
+	background: #835aeb;
+}
+.section6{
+	width: 100%;
+	height: auto;
+	background: #64cbc0;
+	float: left;
+	color: black;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.7em;
+	color: #295a55;
+}
+.section6-p{
+	width: 40%;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.kavich{
+	width: 5%;
+}
+.signature{
+	width: 15.5%;
+}
+.Deniel{
+	margin-top: 3em;
+	font-weight: bold;
+}
+input, textarea{
+	width: 100%;
+	height: auto;
+	font-size: 0.9em;
+	background: transparent;
+	color: white;
+	border: 0;
+	outline: 0;
+	border: 1px solid white;
+	padding: 1.2em 0 1.2em 1em;
+	margin-bottom: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+textarea{
+	height: 11em;
+}
+::placeholder{
+	color: white;
+	font-size: 0.88em;
+	font-family: 'Roboto', sans-serif;
+}
+input[type="button"]{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	background: #ff2b4a;
+	margin-top: 1em;
+	/*margin-bottom: 2em;*/
+	border: none;
+	float: right;
+	font-size: 1em;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+.section4right1 h2, .section4right2 h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	margin-bottom: 2em;
+}
+.section4right1 p, .section4right2 p{
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+.section4right1{
+	margin-bottom: 1em;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #222222;
+	float: left;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	color: white;
+	text-align: center;
+}
+footer img{
+	padding: 0 1em 0 1em;
+	border-right: 1px solid #aaaaaa;
+}
+.lost{
+	border-right: none;
+}
+footer p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #aaaaaa;
+	margin-top: 1.5em;
+}
